@@ -1,6 +1,6 @@
 # Visual Studio Code - Personal Setup
 
-A place to keep track of my favorite settings &amp; extensions for [Visual Studio Code](https://code.visualstudio.com/). For more awesome packages and resources, check out [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+A place to keep track of my favorite settings &amp; extensions for [Visual Studio Code](https://code.visualstudio.com/). For more VSCode packages and resources, check out [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 
 ## Table of Contents
 
@@ -14,12 +14,12 @@ _VS Code provides two different scopes for settings:_
 - _**User Settings** - Settings that apply globally to any instance of VS Code you open_
 - _**Workspace Settings** - Settings stored inside your workspace and only apply when the workspace is opened_
 
-### To open your User Settings JSON file:
+**To open your _User Settings_ JSON file:**
 
 - Open the Command Palette (⇧⌘P)
 - Execute the command: "Preferences: Open Settings (JSON)"
 
-### To modify settings, reference: [settings.json](./settings.json)
+**To update your _User Settings_ JSON file, copy/paste settings from [settings.json](./settings.json) and save**
 
 ## Extensions
 
@@ -42,13 +42,13 @@ _You can install and manage VS Code extensions from the command line_
 
 **To List all currently installed extensions**
 
-```
+```bash
 code --list-extensions
 ```
 
-> My output from \$code --list-extensions:
+> My output from **_code --list-extensions_**:
 >
-> ```
+> ```bash
 > CoenraadS.bracket-pair-colorizer-2
 > eamodio.gitlens
 > Equinusocio.vsc-material-theme
@@ -63,13 +63,13 @@ code --list-extensions
 
 **To install an extension. Provide the full extension name publisher.extension as an argument. Use --force argument to avoid prompts**
 
-```
-code --install-extension <ext
+```bash
+code --install-extension <ext>
 ```
 
 > To install all of the listed extensions, you can run:
 >
-> ```
+> ```bash
 > code --install extension CoenraadS.bracket-pair-colorizer-2
 > code --install extension eamodio.gitlens
 > code --install extension Equinusocio.vsc-material-theme
@@ -84,13 +84,13 @@ code --install-extension <ext
 
 **To uninstall an extension. Provide the full extension name publisher.extension as an argument**
 
-```
-code --uninstall-extension <ext
+```bash
+code --uninstall-extension <ext>
 ```
 
 > To uninstall all of the listed extensions, you can run:
 >
-> ```
+> ```bash
 > code --uninstall extension CoenraadS.bracket-pair-colorizer-2
 > code --uninstall extension eamodio.gitlens
 > code --uninstall extension Equinusocio.vsc-material-theme
@@ -102,3 +102,7 @@ code --uninstall-extension <ext
 > code --uninstall extension vincaslt.highlight-matching-tag
 > code --uninstall extension wix.vscode-import-cost
 > ```
+
+## License
+
+[MIT](./LICENSE)
