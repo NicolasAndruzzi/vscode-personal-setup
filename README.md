@@ -67,7 +67,7 @@ code --list-extensions
 code --install-extension <ext
 ```
 
-> To install all of the linked extensions, you can run:
+> To install all of the listed extensions, you can run:
 >
 > ```
 > code --install extension CoenraadS.bracket-pair-colorizer-2
@@ -88,7 +88,7 @@ code --install-extension <ext
 code --uninstall-extension <ext
 ```
 
-> To uninstall all of the linked extensions, you can run:
+> To uninstall all of the listed extensions, you can run:
 >
 > ```
 > code --uninstall extension CoenraadS.bracket-pair-colorizer-2
