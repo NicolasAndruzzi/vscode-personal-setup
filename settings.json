@@ -1,0 +1,50 @@
+{
+  // ====================Editor Settings====================
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.tslint": true
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.detectIndentation": false,
+  // "FiraCode-Retina" for macOS
+  // "Fira Code Retina" for Windows or Linux
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  // ====================Workbench Settings====================
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "readme",
+  // ====================Personal Extensions====================
+  "bracket-pair-colorizer-2.colors": [
+    "#00FFFF",
+    "#FFFF00",
+    "#FF00FF",
+    "#00FF00"
+  ],
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "#FF0000",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "#FFFF00"
+      }
+    }
+  },
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0)",
+    "rgba(16,16,16,0.25)",
+    "rgba(16,16,16,0.5)",
+    "rgba(16,16,16,0.75)",
+    "rgba(16,16,16,1)"
+  ],
+  "prettier.singleQuote": true
+}
